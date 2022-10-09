@@ -1,0 +1,9 @@
+import random
+import time
+
+while (1):
+    temp = random.randint(0, 90)
+    humi = random.randint(0, 90)
+    if temp>40:
+        print("ALERT! Detected temperature: "+str(temp)+"°C")
+        time.sleep(1)
